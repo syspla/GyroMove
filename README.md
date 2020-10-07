@@ -1,6 +1,7 @@
 # GyroMove
 
-A small library to get accessto mobile sensor events (gyroscope and accelerometer) using javascript
+A small library for  getting access to mobile sensor events (gyroscope and accelerometer) using javascript.
+
 Start the session and get user autorizacion by adding the "startGyromove" id to a button or link
 use the following variables to get acces to the gyroscope and accelerometer.
 
