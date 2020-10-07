@@ -2,10 +2,10 @@
 
 
 A small library for  getting access to mobile sensor events (gyroscope and accelerometer) using javascript.
-
 Start the session and get user autorizacion by adding the "startGyromove" id to a button or link
 
-use the following variables to get acces to the gyroscope and accelerometer.
+Use the following variables to get acces to the gyroscope and accelerometer.
+
 
 JavaScriptを使ってモバイルセンサ（ジェイロスコープや加速度計）にアクセスできるようになるライブラリです
 セッションを始めて、「startGyromove」idをbuttonかlinkに加えることでユーザー認定を得ます。
