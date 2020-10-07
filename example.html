@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>GyroMove Demo</title>
+  </head>
+  <body>
+    <h3><a id="startGyromove" href="#">Start</a></h3>
+    <h3>Rotation Rate - 回転率</h3>
+    <ul>
+      <li id="gyroX">gyroX</li>
+      <li id="gyroY">gyroY</li>
+      <li id="gyroZ">gyroZ</li>
+    </ul>
+    <h3>Orientation - 方向</h3>
+    <ul>
+      <li id="orientationA">orientationA</li>
+      <li id="orientationB">orientationB</li>
+      <li id="orientationG">orientationG</li>
+    </ul>
+    <h3>Acceleration Including Gravity - 重力を加えた加速度</h3>
+    <ul>
+      <li id="accelerationIncludingGravityX">accelerationIncludingGravityX</li>
+      <li id="accelerationIncludingGravityY">accelerationIncludingGravityY</li>
+      <li id="accelerationIncludingGravityZ">accelerationIncludingGravityZ</li>
+    </ul>
+    <h3>Acceleration - 加速度</h3>
+    <ul>
+      <li id="accelerationX">accelerationX</li>
+      <li id="accelerationY">accelerationY</li>
+      <li id="accelerationZ">accelerationZ</li>
+    </ul>
+
+    <script src="https://cdn.jsdelivr.net/gh/syspla/GyroMove@0.3/gyromove.js" charset="utf-8"></script>
+    <script type="text/javascript">
+        function display() {
+          setInterval(function(){
+            var gX = document.getElementById("gyroX");
+            gX.innerHTML = 'gyroX = ' + gyroX;
+          }, 1);
+          setInterval(function(){
+            var gY = document.getElementById("gyroY");
+            gY.innerHTML = 'gyroY = ' + gyroY;
+          }, 1);
+          setInterval(function(){
+            var gZ = document.getElementById("gyroZ");
+            gZ.innerHTML = 'gyroZ = ' + gyroZ;
+          }, 1);
+          setInterval(function(){
+            var oA = document.getElementById("orientationA");
+            oA.innerHTML = 'orientationA = ' + orientationA;
+          }, 1);
+          setInterval(function(){
+            var oB = document.getElementById("orientationB");
+            oB.innerHTML = 'orientationB = ' + orientationB;
+          }, 1);
+          setInterval(function(){
+            var oG = document.getElementById("orientationG");
+            oG.innerHTML = 'orientationG = ' + orientationG;
+          }, 1);
+          setInterval(function(){
+            var aGX = document.getElementById("accelerationIncludingGravityX");
+            aGX.innerHTML = 'accelerationIncludingGravityX = ' + accelerationIncludingGravityX;
+          }, 1);
+          setInterval(function(){
+            var aGY = document.getElementById("accelerationIncludingGravityY");
+            aGY.innerHTML = 'accelerationIncludingGravityY = ' + accelerationIncludingGravityY;
+          }, 1);
+          setInterval(function(){
+            var aGZ = document.getElementById("accelerationIncludingGravityZ");
+            aGZ.innerHTML = 'accelerationIncludingGravityZ = ' + accelerationIncludingGravityZ;
+          }, 1);
+          setInterval(function(){
+            var aX = document.getElementById("accelerationX");
+            aX.innerHTML = 'accelerationX = ' + accelerationX;
+          }, 1);
+          setInterval(function(){
+            var aY = document.getElementById("accelerationY");
+            aY.innerHTML = 'accelerationY = ' + accelerationY;
+          }, 1);
+          setInterval(function(){
+            var aZ = document.getElementById("accelerationZ");
+            aZ.innerHTML = 'accelerationZ = ' + accelerationZ;
+          }, 1);
+
+          //check the console too
+          setInterval(function(){
+             console.log(accelerationZ);
+           }, 1);
+
+        }
+        display()
+    </script>
+  </body>
+</html>
