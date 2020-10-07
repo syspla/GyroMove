@@ -26,23 +26,23 @@ var accelerationZ=0;
 
 
 function handleOrientation(event) {
-  var orientationA=event.alpha;
-  var orientationB=event.beta;
-  var orientationG=event.gamma;
+  orientationA=event.alpha;
+  orientationB=event.beta;
+  orientationG=event.gamma;
 }
 
 function handleMotion(event) {
-  var accelerationIncludingGravityX=event.accelerationIncludingGravity.x;
-  var accelerationIncludingGravityY=event.accelerationIncludingGravity.y;
-  var accelerationIncludingGravityZ=event.accelerationIncludingGravity.z;
+  accelerationIncludingGravityX=event.accelerationIncludingGravity.x;
+  accelerationIncludingGravityY=event.accelerationIncludingGravity.y;
+  accelerationIncludingGravityZ=event.accelerationIncludingGravity.z;
 
-  var accelerationX=event.acceleration.x;
-  var accelerationY=event.acceleration.y;
-  var accelerationZ=event.acceleration.z;
+  accelerationX=event.acceleration.x;
+  accelerationY=event.acceleration.y;
+  accelerationZ=event.acceleration.z;
 
-  var gyroX=event.rotationRate.beta;
-  var gyroY=event.rotationRate.gamma;
-  var gyroZ=event.rotationRate.alpha;
+  gyroX=event.rotationRate.beta;
+  gyroY=event.rotationRate.gamma;
+  gyroZ=event.rotationRate.alpha;
 }
 
 
