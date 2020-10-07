@@ -34,3 +34,30 @@ JavaScriptを使ってモバイルセンサ（ジェイロスコープや加速�
 - accelerationZ
 
 
+## Load GyroMove from cdn
+
+- cdn: https://cdn.jsdelivr.net/gh/syspla/GyroMove@0.1/gyromove.js
+
+
+```html
+
+<script src="https://cdn.jsdelivr.net/gh/syspla/GyroMove@0.1/gyromove.js" charset="utf-8"></script>
+
+
+```
+
+## Use GyroMove in your script
+
+```javascript
+
+//example gyro rotation x
+let MyRotationX = gyroX;
+
+```
+
+
+## Good Luck! ;)
+
+```o
+```o
+```
