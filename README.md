@@ -36,12 +36,12 @@ JavaScriptを使ってモバイルセンサ（ジェイロスコープや加速�
 
 ## Load GyroMove from cdn
 
-- cdn: https://cdn.jsdelivr.net/gh/syspla/GyroMove@0.2/gyromove.js
+- cdn: https://cdn.jsdelivr.net/gh/syspla/GyroMove@0.3/gyromove.js
 
 
 ```html
 
-<script src="https://cdn.jsdelivr.net/gh/syspla/GyroMove@0.2/gyromove.js" charset="utf-8"></script>
+<script src="https://cdn.jsdelivr.net/gh/syspla/GyroMove@0.3/gyromove.js" charset="utf-8"></script>
 
 
 ```
