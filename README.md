@@ -58,6 +58,4 @@ let MyRotationX = gyroX;
 
 ## Good Luck! ;)
 
-```o
-```o
-```
+
