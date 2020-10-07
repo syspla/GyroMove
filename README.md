@@ -33,6 +33,9 @@ JavaScriptを使ってモバイルセンサ（ジェイロスコープや加速�
 - accelerationY
 - accelerationZ
 
+## GyroMove Use Demo
+
+https://syspla.github.io/gyromovedemo.html
 
 ## Load GyroMove from cdn
 
