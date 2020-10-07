@@ -13,7 +13,7 @@ JavaScriptを使ってモバイルセンサ（ジェイロスコープや加速�
 
 
 
-**Rotation Rate -  回転率**
+## Rotation Rate -  回転率
 
 
 - gyroX
@@ -22,7 +22,7 @@ JavaScriptを使ってモバイルセンサ（ジェイロスコープや加速�
 
 
 
-**Orientation - 方向**
+## Orientation - 方向
 
 
 - orientationA
@@ -31,7 +31,7 @@ JavaScriptを使ってモバイルセンサ（ジェイロスコープや加速�
 
 
 
-**Acceleration Including Gravity - 重力を加えた加速度**
+## Acceleration Including Gravity - 重力を加えた加速度
 
 
 - accelerationIncludingGravityX
@@ -40,7 +40,7 @@ JavaScriptを使ってモバイルセンサ（ジェイロスコープや加速�
 
 
 
-**Acceleration - 加速度**
+## Acceleration - 加速度
 
 
 - accelerationX
