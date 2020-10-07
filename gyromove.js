@@ -61,6 +61,7 @@ start_button.onclick = function(e) {
   if (is_running){
     window.removeEventListener("devicemotion", handleMotion);
     window.removeEventListener("deviceorientation", handleOrientation);
+    document.getElementById("startGyromove").innerHTML = "Start";
     is_running = false;
   }else{
     window.addEventListener("devicemotion", handleMotion);
