@@ -8,25 +8,25 @@ JavaScriptを使ってモバイルセンサ（ジェイロスコープや加速�
 セッションを始めて、「startGyromove」idをbuttonかlinkに加えることでユーザー認定を得ます。
 以下の変数を使い、ジャイロスコープと加速度計へアクセスします。
 
-**Rotation Rate -  回転率
+**Rotation Rate -  回転率**
 
 - gyroX
 - gyroY
 - gyroZ
 
-**Orientation - 方向
+**Orientation - 方向**
 
 - orientationA
 - orientationB
 - orientationG
 
-**Acceleration Including Gravity - 重力を加えた加速度
+**Acceleration Including Gravity - 重力を加えた加速度**
 
 - accelerationIncludingGravityX
 - accelerationIncludingGravityY
 - accelerationIncludingGravityZ
 
-**Acceleration - 加速度
+**Acceleration - 加速度**
 
 - accelerationX
 - accelerationY
