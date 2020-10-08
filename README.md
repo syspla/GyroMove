@@ -55,6 +55,12 @@ JavaScriptを使ってモバイルセンサ（ジェイロスコープや加速�
 https://syspla.github.io/gyromovedemo.html
 
 
+## Moving div based on acceleration
+
+
+https://syspla.github.io/move.html
+
+
 
 ## Load GyroMove from cdn
 
